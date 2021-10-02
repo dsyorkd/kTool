@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="ktool_lib\kTool.core\kTool.core.csproj" />
+    <ProjectReference Include="ktool_lib\kTool.data\kTool.data.csproj" />
+    <ProjectReference Include="ktool_lib\kTool.logging\kTool.logging.csproj" />
+    <ProjectReference Include="ktool_lib\kTool.client\kTool.client.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
